@@ -117,3 +117,39 @@ body {
   button svg {
     margin-right: 5px;
   }
+
+  @media only screen and (max-width: 400px) {
+    body{
+      min-height: 70vh;
+      display: block;
+    }
+    h1{
+      font-size: small;
+      display: block;
+      
+      color: #ffffff;
+      
+      border-style: none;
+      padding: 5px;
+
+    }
+
+    .app {
+      background-color: #252d4a;
+      width: 170px;
+      min-height: 350px;
+      height: min-content;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 10px 10px 42px 0px rgba(63, 59, 59, 0.75);
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .question-section {
+      width: 80%;
+      position: relative;
+      padding: 0%;
+      margin: 0%;
+    }
+  }
